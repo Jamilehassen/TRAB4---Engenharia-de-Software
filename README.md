@@ -159,3 +159,15 @@ Correta implementação e funcionamento das aplicações.
 | consultarMedicos     | Retorna lista de médicos.                                           | -                 | Lista de Médicos                                                         | http://localhost:8080/Servlet_Paciente/ConsultarMedicos                                                                                                                              |
 | consultarMedicamentos| Retorna lista de medicamentos.                                      | -                 | Lista de Medicamentos                                                    | http://localhost:8080/Servlet_Paciente/ConsultarMedicamentos                                                                                                                         |
 | consultarCIDs        | Retorna lista de CIDs cadastradas.                                  | -                 | Lista de CIDs                                                            | http://localhost:8080/Servlet_Paciente/ConsultarCIDs                                                                                                                                |
+
+
+# Notas
+### T1A - 10/10
+### T1B - 37/40
+### T2A - 10/10
+### T2B - 39/50 - 10 pontos eram adicionais para aqueles que implementaram a IA com base nos serviços.
+### T3A - 8/10
+### T3B - 20/20
+### T3C - 19/20
+### T4A - 26/30
+### T4B - 20/20
