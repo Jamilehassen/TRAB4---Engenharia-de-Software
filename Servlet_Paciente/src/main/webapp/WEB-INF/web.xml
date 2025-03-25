@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+
+  <servlet>
+    <servlet-name>ObterEnderecoExterno</servlet-name>
+    <servlet-class>ServletsServicos.ObterEnderecoExterno</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ObterEnderecoExterno</servlet-name>
+    <url-pattern>/ObterEnderecoExterno</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+    <display-name>CorsFilter</display-name>
+    <filter-name>CorsFilter</filter-name>
+    <filter-class>ServletsServicos.CorsFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+    <filter-name>CorsFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <servlet>
+  	<servlet-name>CadastrarEndereco</servlet-name>
+  	<servlet-class>ServletsServicos.CadastrarEndereco</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>CadastrarEndereco</servlet-name>
+    <url-pattern>/CadastrarEndereco</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>ObterCidade</servlet-name>
+  	<servlet-class>ServletsServicos.ObterCidade</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ObterCidade</servlet-name>
+    <url-pattern>/ObterCidade</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ObterBairros</servlet-name>
+  	<servlet-class>ServletsServicos.ObterBairros</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ObterBairros</servlet-name>
+    <url-pattern>/ObterBairros</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ObterLogradouros</servlet-name>
+  	<servlet-class>ServletsServicos.ObterLogradouros</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ObterLogradouros</servlet-name>
+    <url-pattern>/ObterLogradouros</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ObterEnderecoPorID</servlet-name>
+  	<servlet-class>ServletsServicos.ObterEnderecoPorID</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ObterEnderecoPorID</servlet-name>
+    <url-pattern>/ObterEnderecoPorID</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>ObterEnderecoPorCEP</servlet-name>
+  	<servlet-class>ServletsServicos.ObterEnderecoPorCEP</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ObterEnderecoPorCEP</servlet-name>
+    <url-pattern>/ObterEnderecoPorCEP</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ObterPacientes</servlet-name>
+  	<servlet-class>ServletsServicos.ObterPacientes</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ObterPacientes</servlet-name>
+    <url-pattern>/ObterPacientes</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>CadastrarPaciente</servlet-name>
+  	<servlet-class>ServletsServicos.CadastrarPaciente</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>CadastrarPaciente</servlet-name>
+    <url-pattern>/CadastrarPaciente</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
