@@ -1,4 +1,4 @@
-# TRABALHO DE BANCO DE DADOS – 2
+# TRABALHO DE ENGENHARIA DE SOFTWARE – 2
 ## TRABALHO T3 e T4 - ENGENHARIA DE SOFTWARE I
 Realizar o trabalho em grupo de até 3 alunos.
 
